@@ -53,6 +53,8 @@ func start(pos):
 	position = pos
 	show()
 	$CollisionShape2D.disabled = false
+	$AnimatedSprite2D.animation = "walk"  
+	$AnimatedSprite2D.frame = 0        
 
 	
 	
